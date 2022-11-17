@@ -1,0 +1,67 @@
+.left_widget {
+  margin-left: 0px;
+  width: 350px;
+  height: 650px;
+  margin-top: 0px;
+  padding: 20px;
+  border-right: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+}
+.group {
+  align-items: flex-start;
+  margin-left: 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.group_logo {
+  font-size: 20px;
+  padding: 20px;
+}
+.group_name {
+  font-size: 15px;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 7px;
+}
+.group:hover .icon {
+  background: rgb(138, 98, 156);
+  background: linear-gradient(
+    90deg,
+    rgba(138, 98, 156, 1) 0%,
+    rgba(33, 20, 32, 1) 0%,
+    rgba(159, 49, 146, 1) 84%,
+    rgba(159, 49, 146, 1) 92%
+  );
+  color: white;
+}
+.modal {
+  width: 100%;
+  height: 100%;
+  background: rgb(138, 98, 156);
+  background: linear-gradient(
+    90deg,
+    rgba(138, 98, 156, 1) 0%,
+    rgba(33, 20, 32, 1) 0%,
+    rgba(159, 49, 146, 1) 69%
+  );
+}
+.grpBtn {
+  border: none;
+  outline: none;
+  font-size: 15px;
+  margin-left: auto;
+  margin-top: 0;
+  background-color: white;
+  cursor: pointer;
+}
+.icon {
+  color: white;
+}

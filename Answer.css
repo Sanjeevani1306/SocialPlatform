@@ -1,0 +1,12 @@
+.answerBox {
+  padding: 10px;
+  border: 0.2px solid gray;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.userName2 {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 2px;
+  color: #ac39ac;
+}

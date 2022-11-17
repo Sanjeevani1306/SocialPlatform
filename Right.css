@@ -1,0 +1,36 @@
+.right_widget {
+  margin-left: 1150px;
+  width: 350px;
+  height: 650px;
+  margin-top: 0px;
+  padding: 20px;
+  border-left: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+}
+.group {
+  align-items: flex-start;
+  margin-left: 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.group_logo {
+  font-size: 20px;
+  padding: 20px;
+}
+.group_name {
+  font-size: 15px;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 7px;
+}
+.group:hover {
+  background-color: gray;
+}

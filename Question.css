@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+
+.add_question {
+  background-color: white;
+  height: 80px;
+  width: 520px;
+  border: 1px solid gray;
+  margin-left: 400px;
+  margin-top: 100px;
+}
+.question_box {
+  background-color: white;
+  height: auto;
+  width: 550px;
+  border: 1px solid gray;
+  margin-left: 480px;
+  margin-top: 100px;
+  margin-top: 15px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.add_question__tagline {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.question__name {
+  margin-left: 5px;
+  padding: 5px;
+  font-family: "Nunito Sans", "Source Sans Pro", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+}
+.question_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.groupName {
+  padding: 5px;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  margin-top: -5px;
+  margin-left: 5px;
+  color: #b30059;
+}
+.userName {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  margin-top: -5px;
+  margin-left: 10px;
+  color: #ff3399;
+}
+.giveAns {
+  margin-left: auto;
+  color: white;
+  background-color: white;
+}
+.question_box:hover .giveAns {
+  width: 150px;
+  height: 40px;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  background: rgb(138, 98, 156);
+  background: linear-gradient(
+    90deg,
+    rgba(138, 98, 156, 1) 0%,
+    rgba(10, 6, 10, 1) 0%,
+    rgba(117, 32, 107, 1) 81%,
+    rgba(203, 55, 185, 1) 100%
+  );
+  padding: 10px;
+  font-size: 25px;
+}
+.postAnswer {
+  width: 500px;
+  height: 350px;
+  border: 1px solid gray;
+  padding: 20px;
+  border-radius: 20px;
+  margin-left: 1px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.inputAnswer {
+  width: 450px;
+  height: 160px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  align-self: flex-start;
+  line-height: 100px;
+}
+.submitAnswer {
+  width: 120px;
+  height: 40px;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  background: rgb(138, 98, 156);
+  background: linear-gradient(
+    90deg,
+    rgba(138, 98, 156, 1) 0%,
+    rgba(10, 6, 10, 1) 0%,
+    rgba(117, 32, 107, 1) 81%,
+    rgba(203, 55, 185, 1) 100%
+  );
+  padding: 10px;
+  font-size: 25px;
+  margin-left: 40px;
+}
+.answerForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
